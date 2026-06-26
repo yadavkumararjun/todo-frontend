@@ -1,5 +1,5 @@
 
-const BASE_URL = "http://localhost:3000/todos";
+const BASE_URL ="https://todo-backend-15e6.onrender.com/todos";
 
 export const getTodos = async ()=>{
     const response = await fetch(BASE_URL);
